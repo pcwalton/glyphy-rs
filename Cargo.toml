@@ -1,0 +1,12 @@
+[package]
+name = "glyphy"
+version = "0.1.0"
+
+[lib]
+name = "glyphy"
+path = "lib.rs"
+
+[dependencies]
+freetype-rs = "*"
+libc = "*"
+
